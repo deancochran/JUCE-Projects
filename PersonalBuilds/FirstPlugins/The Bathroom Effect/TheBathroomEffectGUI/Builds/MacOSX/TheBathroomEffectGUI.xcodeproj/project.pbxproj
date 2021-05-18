@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		A326A1FEE11D1CC2DA2F3225 = {
+			isa = PBXBuildFile;
+			fileRef = FF2892B22441BA480215C8C9;
+		};
+		38E1DB5B61E15DFBCA12327F = {
+			isa = PBXBuildFile;
+			fileRef = A1BC0C9E9D07D4AD65E324B8;
+		};
+		FB226B282463411750A4214B = {
+			isa = PBXBuildFile;
+			fileRef = E78CFD2196D4A30F568B4A27;
+		};
+		2567CCD1287659EDDFE604A9 = {
+			isa = PBXBuildFile;
+			fileRef = ADD7FF4CD7C8286F17FA2F28;
+		};
+		28C91C3B5ADEDA5325B97F0D = {
+			isa = PBXBuildFile;
+			fileRef = DB7F1C176FEC581811383C24;
+		};
+		0F1CD9974A6DB47B27134491 = {
+			isa = PBXBuildFile;
+			fileRef = 0FA3CC92F8BD6035E2F09558;
+		};
+		60058BD78F085F2C3F39EBFB = {
+			isa = PBXBuildFile;
+			fileRef = C56581E416A5998FDDBDF670;
+		};
+		3A141DED939A3AB16F24D2E0 = {
+			isa = PBXBuildFile;
+			fileRef = 7E96CFF52A62B79B42A496DC;
+		};
+		3EC83AFEAA81129108DCF1A2 = {
+			isa = PBXBuildFile;
+			fileRef = BA5E05A5ED6F76FAA529134A;
+		};
+		ABD1ABF3362F38FE7402C910 = {
+			isa = PBXBuildFile;
+			fileRef = 851F8A5F55ACA0F145A3ABEE;
+		};
+		22A309DFE49F7E9FD7753600 = {
+			isa = PBXBuildFile;
+			fileRef = DE3CD6047D038E2AB52BF756;
+		};
+		551160E7DBB17629EE02C232 = {
+			isa = PBXBuildFile;
+			fileRef = 134641836B1467009631EC35;
+		};
+		F47BB9D4B0FB3F6C34870D6A = {
+			isa = PBXBuildFile;
+			fileRef = B6AA2AB7E91E614A050A5CC0;
+		};
+		ECC9BE2ED980430E25C2A63D = {
+			isa = PBXBuildFile;
+			fileRef = E89D24043720F457E63C04BA;
+		};
+		6F06B438DEF291C2E5E0E5FF = {
+			isa = PBXBuildFile;
+			fileRef = 9B7ACB7EECCC569640A3F9D2;
+		};
+		3D8816D1D2FA17A1685E6DAB = {
+			isa = PBXBuildFile;
+			fileRef = E132CFD4593F15303C773E20;
+		};
+		0FA3CC92F8BD6035E2F09558 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		134641836B1467009631EC35 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1AD0D540715CC77BBF894D84 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "/Applications/JUCE/modules/juce_graphics";
+			sourceTree = "<absolute>";
+		};
+		26C337ED0D20795AA04945E9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3B318ADCDC7A6A98E86A6060 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.jpeg;
+			name = TheBathroomEffectBackground.jpg;
+			path = ../../Source/TheBathroomEffectBackground.jpg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		43AF19500449CDD47121EAA0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "/Applications/JUCE/modules/juce_events";
+			sourceTree = "<absolute>";
+		};
+		46CAD9FD258A5FFAC0FD1196 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = MainComponent.h;
+			path = ../../Source/MainComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		4B01103217EA5E7B9D7C7AB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "/Applications/JUCE/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		53DEE54A1085DCD7DEB85EF5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BackgroundComponent.h;
+			path = ../../Source/BackgroundComponent.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7E96CFF52A62B79B42A496DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = Main.cpp;
+			path = ../../Source/Main.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		851F8A5F55ACA0F145A3ABEE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = MainComponent.cpp;
+			path = ../../Source/MainComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8EB0F257E619135A3727622F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9B7ACB7EECCC569640A3F9D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A1BC0C9E9D07D4AD65E324B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		ADD7FF4CD7C8286F17FA2F28 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = System/Library/Frameworks/Foundation.framework;
+			sourceTree = SDKROOT;
+		};
+		B6AA2AB7E91E614A050A5CC0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B9CFAF9FE55545A0AA7445AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-App.plist";
+			path = "Info-App.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BA5E05A5ED6F76FAA529134A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BackgroundComponent.cpp;
+			path = ../../Source/BackgroundComponent.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C56581E416A5998FDDBDF670 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		DB7F1C176FEC581811383C24 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		DE3CD6047D038E2AB52BF756 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E132CFD4593F15303C773E20 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E78CFD2196D4A30F568B4A27 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		E89D24043720F457E63C04BA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F63CC6600BA54506953B6F47 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "/Applications/JUCE/modules/juce_core";
+			sourceTree = "<absolute>";
+		};
+		FF2892B22441BA480215C8C9 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = TheBathroomEffectGUI.app;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		FFDCC93B1362994FD8D50430 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "/Applications/JUCE/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
+		CDA3423C8216593215B4D3F2 = {
+			isa = PBXGroup;
+			children = (
+				7E96CFF52A62B79B42A496DC,
+				BA5E05A5ED6F76FAA529134A,
+				53DEE54A1085DCD7DEB85EF5,
+				46CAD9FD258A5FFAC0FD1196,
+				851F8A5F55ACA0F145A3ABEE,
+				3B318ADCDC7A6A98E86A6060,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		BE2A86723B0B1A9F42E94B64 = {
+			isa = PBXGroup;
+			children = (
+				CDA3423C8216593215B4D3F2,
+			);
+			name = TheBathroomEffectGUI;
+			sourceTree = "<group>";
+		};
+		5B3CB1764565152819C8223B = {
+			isa = PBXGroup;
+			children = (
+				F63CC6600BA54506953B6F47,
+				4B01103217EA5E7B9D7C7AB1,
+				43AF19500449CDD47121EAA0,
+				1AD0D540715CC77BBF894D84,
+				FFDCC93B1362994FD8D50430,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		ABCD98E1417C66520C245D6F = {
+			isa = PBXGroup;
+			children = (
+				DE3CD6047D038E2AB52BF756,
+				26C337ED0D20795AA04945E9,
+				134641836B1467009631EC35,
+				B6AA2AB7E91E614A050A5CC0,
+				E89D24043720F457E63C04BA,
+				9B7ACB7EECCC569640A3F9D2,
+				E132CFD4593F15303C773E20,
+				8EB0F257E619135A3727622F,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		EAEE367921B1C6A31B2F0378 = {
+			isa = PBXGroup;
+			children = (
+				B9CFAF9FE55545A0AA7445AB,
+				C56581E416A5998FDDBDF670,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC07DB6E3CD2DFE22E153026 = {
+			isa = PBXGroup;
+			children = (
+				A1BC0C9E9D07D4AD65E324B8,
+				E78CFD2196D4A30F568B4A27,
+				ADD7FF4CD7C8286F17FA2F28,
+				DB7F1C176FEC581811383C24,
+				0FA3CC92F8BD6035E2F09558,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1CECFEDB3F6C94415A774EE = {
+			isa = PBXGroup;
+			children = (
+				FF2892B22441BA480215C8C9,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AED48E9F7E88A257F66D79 = {
+			isa = PBXGroup;
+			children = (
+				BE2A86723B0B1A9F42E94B64,
+				5B3CB1764565152819C8223B,
+				ABCD98E1417C66520C245D6F,
+				EAEE367921B1C6A31B2F0378,
+				DC07DB6E3CD2DFE22E153026,
+				B1CECFEDB3F6C94415A774EE,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		29F6177841EE3D814F57A71A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Applications/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Applications/JUCE/modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectGUI;
+				PRODUCT_NAME = "TheBathroomEffectGUI";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		A7DC9A0423F58F0F2BC3354F = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JUCE_STANDALONE_APPLICATION=1",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Applications/JUCE/modules",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-App.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../JuceLibraryCode",
+					"/Applications/JUCE/modules",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectGUI;
+				PRODUCT_NAME = "TheBathroomEffectGUI";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		E08CD279F4DA34E71F9765C1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "TheBathroomEffectGUI";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		A06718D8A3BCBE6E7DDAAA46 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "TheBathroomEffectGUI";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		D4A7D4A4C247432A1A9513D5 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E08CD279F4DA34E71F9765C1,
+				A06718D8A3BCBE6E7DDAAA46,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		215201592277B3F411636452 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F6177841EE3D814F57A71A,
+				A7DC9A0423F58F0F2BC3354F,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		209B82D1E809EAE162E00530 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60058BD78F085F2C3F39EBFB,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		084E37412FD03B55D819AF10 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A141DED939A3AB16F24D2E0,
+				3EC83AFEAA81129108DCF1A2,
+				ABD1ABF3362F38FE7402C910,
+				22A309DFE49F7E9FD7753600,
+				551160E7DBB17629EE02C232,
+				F47BB9D4B0FB3F6C34870D6A,
+				ECC9BE2ED980430E25C2A63D,
+				6F06B438DEF291C2E5E0E5FF,
+				3D8816D1D2FA17A1685E6DAB,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF763E384D8E7FB8F7F0C6D = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E1DB5B61E15DFBCA12327F,
+				FB226B282463411750A4214B,
+				2567CCD1287659EDDFE604A9,
+				28C91C3B5ADEDA5325B97F0D,
+				0F1CD9974A6DB47B27134491,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A734202415998A9A29DD7F59 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215201592277B3F411636452;
+			buildPhases = (
+				209B82D1E809EAE162E00530,
+				084E37412FD03B55D819AF10,
+				4CF763E384D8E7FB8F7F0C6D,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "TheBathroomEffectGUI - App";
+			productName = TheBathroomEffectGUI;
+			productReference = FF2892B22441BA480215C8C9;
+			productType = "com.apple.product-type.application";
+		};
+		D5B648246CF723D4E461B9D2 = {
+			isa = PBXProject;
+			buildConfigurationList = D4A7D4A4C247432A1A9513D5;
+			attributes = { LastUpgradeCheck = 1230; ORGANIZATIONNAME = ""; TargetAttributes = { A734202415998A9A29DD7F59 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 12AED48E9F7E88A257F66D79;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A734202415998A9A29DD7F59);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = D5B648246CF723D4E461B9D2;
+}

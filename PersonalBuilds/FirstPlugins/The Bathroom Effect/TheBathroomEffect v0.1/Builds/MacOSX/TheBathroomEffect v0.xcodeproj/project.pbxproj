@@ -1,0 +1,1812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8B2E6C5B9CE04ACBFC692A97 /* TheBathroomEffect v0.1 - All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2610D03F64714599BB43519F /* Build configuration list for PBXAggregateTarget "TheBathroomEffect v0.1 - All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1D496A1A6F324CDF894CB32C /* PBXTargetDependency */,
+				A78BF88826815EBD0289BAE7 /* PBXTargetDependency */,
+				E44448D166246A8C3F167127 /* PBXTargetDependency */,
+				1DAC5B29C6068EED96FA1BCD /* PBXTargetDependency */,
+			);
+			name = "TheBathroomEffect v0.1 - All";
+			productName = "TheBathroomEffect v0.1";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03B90B37F24304BE2FF8345D /* include_juce_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAC642545F3C982581ED65DC /* include_juce_core.mm */; };
+		0BB64D5B0FD3A883B6A43790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFD2E4770B2A117D47A019 /* Foundation.framework */; };
+		0F194ACB488396E71E750B6D /* include_juce_audio_plugin_client_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75FDE2B33BB97E0FE8D36696 /* include_juce_audio_plugin_client_utils.cpp */; };
+		121F8A728835C61FC25C86F0 /* include_juce_audio_devices.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD7D16FDAD46DC4E0B950BDA /* include_juce_audio_devices.mm */; };
+		176421C647E4598F9F1CCFBE /* include_juce_audio_plugin_client_Standalone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 093FE32F4D3B53D94D597E4D /* include_juce_audio_plugin_client_Standalone.cpp */; };
+		1B363F70CD0321ADAB1A4BE3 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D5B66A3088D17D6C94CA19 /* AudioUnit.framework */; };
+		1F5F9A54E584C05C0898CC5E /* include_juce_graphics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FBAEEC7CB122698BBD353 /* include_juce_graphics.mm */; };
+		21655D3EB89C26D5C95BF5AC /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCE449116F9A83309BA9FE22 /* include_juce_events.mm */; };
+		22DA2546EEA1BF060ED9D892 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74541479940B185364ED8C2 /* QuartzCore.framework */; };
+		2BDE372B6BF579DDE82D3377 /* include_juce_audio_basics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B41E77DA1438F5E3C8A630E /* include_juce_audio_basics.mm */; };
+		2D48525829D40DE4E396609E /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 25D2BD8C73DB1071C71F5F83 /* RecentFilesMenuTemplate.nib */; };
+		31F7D094831E6BE05572FCBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C735154D946F11BF49DA0CA /* Cocoa.framework */; };
+		325CC4EE07D04C78A50C08B1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F40288311445C7517545FF /* IOKit.framework */; };
+		32668B7B49437F3241FD1C0B /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6AFA1238086935F8CB6DE7 /* DiscRecording.framework */; };
+		3C1DC0517646814A3926FB8A /* include_juce_audio_plugin_client_VST_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60E367B688D7451203B84A3A /* include_juce_audio_plugin_client_VST_utils.mm */; };
+		6B30FD2E4C45962CD6336DFB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F82B4DA751199FF12859D80 /* AudioToolbox.framework */; };
+		7162F428B668BC1F5625AA77 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A808C5434E1A38E77CD29 /* Carbon.framework */; };
+		773D74B02A76E88BE71FEDF8 /* include_juce_audio_formats.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EEDA0A5F93D96C17FA9B8DF /* include_juce_audio_formats.mm */; };
+		7CCAF414891933FDB28DA2F4 /* include_juce_gui_extra.mm in Sources */ = {isa = PBXBuildFile; fileRef = E60BD3F89BB5D3FE0522619C /* include_juce_gui_extra.mm */; };
+		83DB2133FBDF242275316220 /* PluginProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8CB04B3D8F040EDCF4CEA /* PluginProcessor.cpp */; };
+		89439E7D7A947549D475CB3F /* include_juce_audio_plugin_client_AU_1.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5633E460F66313EF7CB3995 /* include_juce_audio_plugin_client_AU_1.mm */; };
+		901EE3CDCEE0C89C59F0F45A /* include_juce_audio_processors.mm in Sources */ = {isa = PBXBuildFile; fileRef = B10E7CCE183AB0CB00D3081E /* include_juce_audio_processors.mm */; };
+		9358D457EF495DC93649C32F /* include_juce_gui_basics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F4AFA06E76140BD8A43F210 /* include_juce_gui_basics.mm */; };
+		9F6474AE108D05C5F9B8EB75 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B536A9248181ADFAD4C315CA /* WebKit.framework */; };
+		A4D61DBA1C161D91DA0FF9E0 /* include_juce_audio_plugin_client_AU_2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03B6520385A346D253DC9B1D /* include_juce_audio_plugin_client_AU_2.mm */; };
+		A4E5585825C7690C002178A7 /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 25D2BD8C73DB1071C71F5F83 /* RecentFilesMenuTemplate.nib */; };
+		A4E5585925C7690C002178A7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE56DDCA3505CE3DDA3A056F /* Accelerate.framework */; };
+		A4E5585A25C7690C002178A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F82B4DA751199FF12859D80 /* AudioToolbox.framework */; };
+		A4E5585B25C7690C002178A7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A808C5434E1A38E77CD29 /* Carbon.framework */; };
+		A4E5585C25C7690C002178A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C735154D946F11BF49DA0CA /* Cocoa.framework */; };
+		A4E5585D25C7690C002178A7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3D5CD66FAFA962DADC51DD /* CoreAudio.framework */; };
+		A4E5585E25C7690C002178A7 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018F94B46646F25106EC5CD1 /* CoreAudioKit.framework */; };
+		A4E5585F25C7690C002178A7 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AF0CFBD5A9B078891A5A3C /* CoreMIDI.framework */; };
+		A4E5586025C7690C002178A7 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6AFA1238086935F8CB6DE7 /* DiscRecording.framework */; };
+		A4E5586125C7690C002178A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFD2E4770B2A117D47A019 /* Foundation.framework */; };
+		A4E5586225C7690C002178A7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F40288311445C7517545FF /* IOKit.framework */; };
+		A4E5586325C7690C002178A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74541479940B185364ED8C2 /* QuartzCore.framework */; };
+		A4E5586425C7690C002178A7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B536A9248181ADFAD4C315CA /* WebKit.framework */; };
+		A4E5586525C7690C002178A7 /* RecentFilesMenuTemplate.nib in Resources */ = {isa = PBXBuildFile; fileRef = 25D2BD8C73DB1071C71F5F83 /* RecentFilesMenuTemplate.nib */; };
+		A4E5586625C7690C002178A7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE56DDCA3505CE3DDA3A056F /* Accelerate.framework */; };
+		A4E5586725C7690C002178A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F82B4DA751199FF12859D80 /* AudioToolbox.framework */; };
+		A4E5586825C7690C002178A7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A808C5434E1A38E77CD29 /* Carbon.framework */; };
+		A4E5586925C7690C002178A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C735154D946F11BF49DA0CA /* Cocoa.framework */; };
+		A4E5586A25C7690C002178A7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3D5CD66FAFA962DADC51DD /* CoreAudio.framework */; };
+		A4E5586B25C7690C002178A7 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018F94B46646F25106EC5CD1 /* CoreAudioKit.framework */; };
+		A4E5586C25C7690C002178A7 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AF0CFBD5A9B078891A5A3C /* CoreMIDI.framework */; };
+		A4E5586D25C7690C002178A7 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6AFA1238086935F8CB6DE7 /* DiscRecording.framework */; };
+		A4E5586E25C7690C002178A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFD2E4770B2A117D47A019 /* Foundation.framework */; };
+		A4E5586F25C7690C002178A7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F40288311445C7517545FF /* IOKit.framework */; };
+		A4E5587025C7690C002178A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74541479940B185364ED8C2 /* QuartzCore.framework */; };
+		A4E5587125C7690C002178A7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B536A9248181ADFAD4C315CA /* WebKit.framework */; };
+		A6B9E3A3517D8A0CD0215B77 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3D5CD66FAFA962DADC51DD /* CoreAudio.framework */; };
+		A8FF5B4A6AEDF6919627D6A6 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018F94B46646F25106EC5CD1 /* CoreAudioKit.framework */; };
+		B1F29C57F1AC936012704449 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AF0CFBD5A9B078891A5A3C /* CoreMIDI.framework */; };
+		C3376C91ED70B3DD8030D06D /* PluginEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF0E3F4F69BCB7F6B6FC818D /* PluginEditor.cpp */; };
+		D4C25BA32683B191C1BF2A86 /* include_juce_dsp.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8F306E5D52451CA031E4F50 /* include_juce_dsp.mm */; };
+		D572F39477300C50A03673D1 /* include_juce_data_structures.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55F447953771D5F0A22E8D2F /* include_juce_data_structures.mm */; };
+		E051BDE3ECC86B4E6C9D945E /* include_juce_audio_plugin_client_VST3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF967837B6762EAF9B460863 /* include_juce_audio_plugin_client_VST3.cpp */; };
+		E63E24652379FD5967090891 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE56DDCA3505CE3DDA3A056F /* Accelerate.framework */; };
+		E747438B2DA4CAD5FBBEEB23 /* include_juce_audio_utils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F18310B620F7E08F1EA7820D /* include_juce_audio_utils.mm */; };
+		FD55EDD85F972CADE2F7FA4B /* include_juce_audio_plugin_client_AU.r in Rez */ = {isa = PBXBuildFile; fileRef = 3EA51DEE5FDD2D1FEF871252 /* include_juce_audio_plugin_client_AU.r */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E5587225C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3F134E37E4FE4FB39C2FB9;
+			remoteInfo = "TheBathroomEffect v0.1 - Shared Code";
+		};
+		A4E5587325C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3F134E37E4FE4FB39C2FB9;
+			remoteInfo = "TheBathroomEffect v0.1 - Shared Code";
+		};
+		A4E5587425C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3F134E37E4FE4FB39C2FB9;
+			remoteInfo = "TheBathroomEffect v0.1 - Shared Code";
+		};
+		A4E5587525C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80B3CE31BD281B8D6F5202EF;
+			remoteInfo = "TheBathroomEffect v0.1 - VST3";
+		};
+		A4E5587625C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA73198DF15889C28D6A0E0;
+			remoteInfo = "TheBathroomEffect v0.1 - AU";
+		};
+		A4E5587725C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EB592D3349D8564CD5A29DF;
+			remoteInfo = "TheBathroomEffect v0.1 - Standalone Plugin";
+		};
+		A4E5587825C7690D002178A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8553F88D010AA1D73300EB4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3F134E37E4FE4FB39C2FB9;
+			remoteInfo = "TheBathroomEffect v0.1 - Shared Code";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018F94B46646F25106EC5CD1 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		021F17487268468D1D30D44E /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = /Applications/JUCE/modules/juce_core; sourceTree = "<absolute>"; };
+		03B6520385A346D253DC9B1D /* include_juce_audio_plugin_client_AU_2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_2.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm; sourceTree = SOURCE_ROOT; };
+		093FE32F4D3B53D94D597E4D /* include_juce_audio_plugin_client_Standalone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_Standalone.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp; sourceTree = SOURCE_ROOT; };
+		0E73C07AE4BE8D673600CB6C /* juce_audio_formats */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_formats; path = /Applications/JUCE/modules/juce_audio_formats; sourceTree = "<absolute>"; };
+		0F4530E983806016B91BDBB5 /* Info-AU.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-AU.plist"; sourceTree = SOURCE_ROOT; };
+		193F6B1A34565ADE6D0C028F /* PluginProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginProcessor.h; path = ../../Source/PluginProcessor.h; sourceTree = SOURCE_ROOT; };
+		204622A8184433A8098BC715 /* TheBathroomEffect v0.1.vst3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheBathroomEffect v0.1.vst3"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D2BD8C73DB1071C71F5F83 /* RecentFilesMenuTemplate.nib */ = {isa = PBXFileReference; lastKnownFileType = file.nib; path = RecentFilesMenuTemplate.nib; sourceTree = SOURCE_ROOT; };
+		2B8FBAEEC7CB122698BBD353 /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
+		2FF03C9B6465AFE3DD63580F /* juce_audio_utils */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_utils; path = /Applications/JUCE/modules/juce_audio_utils; sourceTree = "<absolute>"; };
+		35AF0CFBD5A9B078891A5A3C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		3E3D5CD66FAFA962DADC51DD /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3EA51DEE5FDD2D1FEF871252 /* include_juce_audio_plugin_client_AU.r */ = {isa = PBXFileReference; lastKnownFileType = file.r; name = include_juce_audio_plugin_client_AU.r; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r; sourceTree = SOURCE_ROOT; };
+		420E23735E9F277DA462BEC8 /* JucePluginDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JucePluginDefines.h; path = ../../JuceLibraryCode/JucePluginDefines.h; sourceTree = SOURCE_ROOT; };
+		4AF8CB04B3D8F040EDCF4CEA /* PluginProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessor.cpp; path = ../../Source/PluginProcessor.cpp; sourceTree = SOURCE_ROOT; };
+		4C735154D946F11BF49DA0CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55F447953771D5F0A22E8D2F /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
+		57E15E48FEB4754822D14499 /* juce_gui_extra */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_extra; path = /Applications/JUCE/modules/juce_gui_extra; sourceTree = "<absolute>"; };
+		5D37E0F780B0EAC766F593CB /* PluginEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginEditor.h; path = ../../Source/PluginEditor.h; sourceTree = SOURCE_ROOT; };
+		601FFC16C62D9859670A2584 /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = /Applications/JUCE/modules/juce_events; sourceTree = "<absolute>"; };
+		60E367B688D7451203B84A3A /* include_juce_audio_plugin_client_VST_utils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_VST_utils.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm; sourceTree = SOURCE_ROOT; };
+		612255F967E85F8E6A0124B3 /* TheBathroomEffect v0.1.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheBathroomEffect v0.1.component"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D14A1DA066E73F802C21F6D /* juce_audio_devices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_devices; path = /Applications/JUCE/modules/juce_audio_devices; sourceTree = "<absolute>"; };
+		6EEDA0A5F93D96C17FA9B8DF /* include_juce_audio_formats.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_formats.mm; path = ../../JuceLibraryCode/include_juce_audio_formats.mm; sourceTree = SOURCE_ROOT; };
+		6F4AFA06E76140BD8A43F210 /* include_juce_gui_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_basics.mm; path = ../../JuceLibraryCode/include_juce_gui_basics.mm; sourceTree = SOURCE_ROOT; };
+		72EFD2E4770B2A117D47A019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75FDE2B33BB97E0FE8D36696 /* include_juce_audio_plugin_client_utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_utils.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp; sourceTree = SOURCE_ROOT; };
+		88C2DDFA5E298FACE6FE9DC2 /* Info-Standalone_Plugin.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Standalone_Plugin.plist"; sourceTree = SOURCE_ROOT; };
+		8B41E77DA1438F5E3C8A630E /* include_juce_audio_basics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_basics.mm; path = ../../JuceLibraryCode/include_juce_audio_basics.mm; sourceTree = SOURCE_ROOT; };
+		905899C5016F177BFE7E9797 /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = /Applications/JUCE/modules/juce_gui_basics; sourceTree = "<absolute>"; };
+		970FDD78E3C92AF515A41A44 /* juce_audio_plugin_client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_plugin_client; path = /Applications/JUCE/modules/juce_audio_plugin_client; sourceTree = "<absolute>"; };
+		9F82B4DA751199FF12859D80 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A2D5B66A3088D17D6C94CA19 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A33A808C5434E1A38E77CD29 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		A4CC970F1C33EA736232132F /* Info-VST3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VST3.plist"; sourceTree = SOURCE_ROOT; };
+		AD7D16FDAD46DC4E0B950BDA /* include_juce_audio_devices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_devices.mm; path = ../../JuceLibraryCode/include_juce_audio_devices.mm; sourceTree = SOURCE_ROOT; };
+		AF625191F582CBDDDB3577E8 /* juce_dsp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_dsp; path = /Applications/JUCE/modules/juce_dsp; sourceTree = "<absolute>"; };
+		B054B87E6C24E6183D205BE5 /* juce_graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_graphics; path = /Applications/JUCE/modules/juce_graphics; sourceTree = "<absolute>"; };
+		B10E7CCE183AB0CB00D3081E /* include_juce_audio_processors.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_processors.mm; path = ../../JuceLibraryCode/include_juce_audio_processors.mm; sourceTree = SOURCE_ROOT; };
+		B536A9248181ADFAD4C315CA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B9F40288311445C7517545FF /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		BBBBD151F3F1E17EC1EEE50D /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = /Applications/JUCE/modules/juce_data_structures; sourceTree = "<absolute>"; };
+		C5022B50779AEB28C9B97B9A /* TheBathroomEffect v0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheBathroomEffect v0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F306E5D52451CA031E4F50 /* include_juce_dsp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_dsp.mm; path = ../../JuceLibraryCode/include_juce_dsp.mm; sourceTree = SOURCE_ROOT; };
+		C9130B6C31067BD676468568 /* juce_audio_processors */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_processors; path = /Applications/JUCE/modules/juce_audio_processors; sourceTree = "<absolute>"; };
+		CC98D1D90F20748A44B68BBD /* JuceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JuceHeader.h; path = ../../JuceLibraryCode/JuceHeader.h; sourceTree = SOURCE_ROOT; };
+		D48EA6A0B32D6C5DFB19470E /* juce_audio_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_audio_basics; path = /Applications/JUCE/modules/juce_audio_basics; sourceTree = "<absolute>"; };
+		D74541479940B185364ED8C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF0E3F4F69BCB7F6B6FC818D /* PluginEditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginEditor.cpp; path = ../../Source/PluginEditor.cpp; sourceTree = SOURCE_ROOT; };
+		E60BD3F89BB5D3FE0522619C /* include_juce_gui_extra.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_gui_extra.mm; path = ../../JuceLibraryCode/include_juce_gui_extra.mm; sourceTree = SOURCE_ROOT; };
+		EC6AFA1238086935F8CB6DE7 /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = System/Library/Frameworks/DiscRecording.framework; sourceTree = SDKROOT; };
+		EF967837B6762EAF9B460863 /* include_juce_audio_plugin_client_VST3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_VST3.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp; sourceTree = SOURCE_ROOT; };
+		F18310B620F7E08F1EA7820D /* include_juce_audio_utils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_utils.mm; path = ../../JuceLibraryCode/include_juce_audio_utils.mm; sourceTree = SOURCE_ROOT; };
+		F1F5908794CAB3AFAA03A14E /* libTheBathroomEffect v0.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libTheBathroomEffect v0.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5633E460F66313EF7CB3995 /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
+		FAC642545F3C982581ED65DC /* include_juce_core.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_core.mm; path = ../../JuceLibraryCode/include_juce_core.mm; sourceTree = SOURCE_ROOT; };
+		FCE449116F9A83309BA9FE22 /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
+		FE56DDCA3505CE3DDA3A056F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEE141C87E735174DD8F081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63E24652379FD5967090891 /* Accelerate.framework in Frameworks */,
+				6B30FD2E4C45962CD6336DFB /* AudioToolbox.framework in Frameworks */,
+				7162F428B668BC1F5625AA77 /* Carbon.framework in Frameworks */,
+				31F7D094831E6BE05572FCBB /* Cocoa.framework in Frameworks */,
+				A6B9E3A3517D8A0CD0215B77 /* CoreAudio.framework in Frameworks */,
+				A8FF5B4A6AEDF6919627D6A6 /* CoreAudioKit.framework in Frameworks */,
+				B1F29C57F1AC936012704449 /* CoreMIDI.framework in Frameworks */,
+				32668B7B49437F3241FD1C0B /* DiscRecording.framework in Frameworks */,
+				0BB64D5B0FD3A883B6A43790 /* Foundation.framework in Frameworks */,
+				325CC4EE07D04C78A50C08B1 /* IOKit.framework in Frameworks */,
+				22DA2546EEA1BF060ED9D892 /* QuartzCore.framework in Frameworks */,
+				9F6474AE108D05C5F9B8EB75 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA8B187F89CAE6E9F351A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5586625C7690C002178A7 /* Accelerate.framework in Frameworks */,
+				A4E5586725C7690C002178A7 /* AudioToolbox.framework in Frameworks */,
+				A4E5586825C7690C002178A7 /* Carbon.framework in Frameworks */,
+				A4E5586925C7690C002178A7 /* Cocoa.framework in Frameworks */,
+				A4E5586A25C7690C002178A7 /* CoreAudio.framework in Frameworks */,
+				A4E5586B25C7690C002178A7 /* CoreAudioKit.framework in Frameworks */,
+				A4E5586C25C7690C002178A7 /* CoreMIDI.framework in Frameworks */,
+				A4E5586D25C7690C002178A7 /* DiscRecording.framework in Frameworks */,
+				A4E5586E25C7690C002178A7 /* Foundation.framework in Frameworks */,
+				A4E5586F25C7690C002178A7 /* IOKit.framework in Frameworks */,
+				A4E5587025C7690C002178A7 /* QuartzCore.framework in Frameworks */,
+				A4E5587125C7690C002178A7 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8358F3BE69BC42C4A88CEA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B363F70CD0321ADAB1A4BE3 /* AudioUnit.framework in Frameworks */,
+				A4E5585925C7690C002178A7 /* Accelerate.framework in Frameworks */,
+				A4E5585A25C7690C002178A7 /* AudioToolbox.framework in Frameworks */,
+				A4E5585B25C7690C002178A7 /* Carbon.framework in Frameworks */,
+				A4E5585C25C7690C002178A7 /* Cocoa.framework in Frameworks */,
+				A4E5585D25C7690C002178A7 /* CoreAudio.framework in Frameworks */,
+				A4E5585E25C7690C002178A7 /* CoreAudioKit.framework in Frameworks */,
+				A4E5585F25C7690C002178A7 /* CoreMIDI.framework in Frameworks */,
+				A4E5586025C7690C002178A7 /* DiscRecording.framework in Frameworks */,
+				A4E5586125C7690C002178A7 /* Foundation.framework in Frameworks */,
+				A4E5586225C7690C002178A7 /* IOKit.framework in Frameworks */,
+				A4E5586325C7690C002178A7 /* QuartzCore.framework in Frameworks */,
+				A4E5586425C7690C002178A7 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16905B07F718982D6A206011 /* JUCE Library Code */ = {
+			isa = PBXGroup;
+			children = (
+				8B41E77DA1438F5E3C8A630E /* include_juce_audio_basics.mm */,
+				AD7D16FDAD46DC4E0B950BDA /* include_juce_audio_devices.mm */,
+				6EEDA0A5F93D96C17FA9B8DF /* include_juce_audio_formats.mm */,
+				3EA51DEE5FDD2D1FEF871252 /* include_juce_audio_plugin_client_AU.r */,
+				F5633E460F66313EF7CB3995 /* include_juce_audio_plugin_client_AU_1.mm */,
+				03B6520385A346D253DC9B1D /* include_juce_audio_plugin_client_AU_2.mm */,
+				093FE32F4D3B53D94D597E4D /* include_juce_audio_plugin_client_Standalone.cpp */,
+				75FDE2B33BB97E0FE8D36696 /* include_juce_audio_plugin_client_utils.cpp */,
+				60E367B688D7451203B84A3A /* include_juce_audio_plugin_client_VST_utils.mm */,
+				EF967837B6762EAF9B460863 /* include_juce_audio_plugin_client_VST3.cpp */,
+				B10E7CCE183AB0CB00D3081E /* include_juce_audio_processors.mm */,
+				F18310B620F7E08F1EA7820D /* include_juce_audio_utils.mm */,
+				FAC642545F3C982581ED65DC /* include_juce_core.mm */,
+				55F447953771D5F0A22E8D2F /* include_juce_data_structures.mm */,
+				C8F306E5D52451CA031E4F50 /* include_juce_dsp.mm */,
+				FCE449116F9A83309BA9FE22 /* include_juce_events.mm */,
+				2B8FBAEEC7CB122698BBD353 /* include_juce_graphics.mm */,
+				6F4AFA06E76140BD8A43F210 /* include_juce_gui_basics.mm */,
+				E60BD3F89BB5D3FE0522619C /* include_juce_gui_extra.mm */,
+				CC98D1D90F20748A44B68BBD /* JuceHeader.h */,
+				420E23735E9F277DA462BEC8 /* JucePluginDefines.h */,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		64074088EFE939676373715A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4CC970F1C33EA736232132F /* Info-VST3.plist */,
+				0F4530E983806016B91BDBB5 /* Info-AU.plist */,
+				88C2DDFA5E298FACE6FE9DC2 /* Info-Standalone_Plugin.plist */,
+				25D2BD8C73DB1071C71F5F83 /* RecentFilesMenuTemplate.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72E0BDA5B4F2F94A59930AEF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A49203AAC379BA0018CAF841 /* TheBathroomEffect v0.1 */,
+				B4BDC76D6C3F5ABE7FD6979B /* JUCE Modules */,
+				16905B07F718982D6A206011 /* JUCE Library Code */,
+				64074088EFE939676373715A /* Resources */,
+				8E6CCBC683BCB6E2904C7406 /* Frameworks */,
+				C90277FB7BD9A1116F420D66 /* Products */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		8E6CCBC683BCB6E2904C7406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2D5B66A3088D17D6C94CA19 /* AudioUnit.framework */,
+				FE56DDCA3505CE3DDA3A056F /* Accelerate.framework */,
+				9F82B4DA751199FF12859D80 /* AudioToolbox.framework */,
+				A33A808C5434E1A38E77CD29 /* Carbon.framework */,
+				4C735154D946F11BF49DA0CA /* Cocoa.framework */,
+				3E3D5CD66FAFA962DADC51DD /* CoreAudio.framework */,
+				018F94B46646F25106EC5CD1 /* CoreAudioKit.framework */,
+				35AF0CFBD5A9B078891A5A3C /* CoreMIDI.framework */,
+				EC6AFA1238086935F8CB6DE7 /* DiscRecording.framework */,
+				72EFD2E4770B2A117D47A019 /* Foundation.framework */,
+				B9F40288311445C7517545FF /* IOKit.framework */,
+				D74541479940B185364ED8C2 /* QuartzCore.framework */,
+				B536A9248181ADFAD4C315CA /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A49203AAC379BA0018CAF841 /* TheBathroomEffect v0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FDB168C4869E12BE8B402DB1 /* Source */,
+			);
+			name = "TheBathroomEffect v0.1";
+			sourceTree = "<group>";
+		};
+		B4BDC76D6C3F5ABE7FD6979B /* JUCE Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D48EA6A0B32D6C5DFB19470E /* juce_audio_basics */,
+				6D14A1DA066E73F802C21F6D /* juce_audio_devices */,
+				0E73C07AE4BE8D673600CB6C /* juce_audio_formats */,
+				970FDD78E3C92AF515A41A44 /* juce_audio_plugin_client */,
+				C9130B6C31067BD676468568 /* juce_audio_processors */,
+				2FF03C9B6465AFE3DD63580F /* juce_audio_utils */,
+				021F17487268468D1D30D44E /* juce_core */,
+				BBBBD151F3F1E17EC1EEE50D /* juce_data_structures */,
+				AF625191F582CBDDDB3577E8 /* juce_dsp */,
+				601FFC16C62D9859670A2584 /* juce_events */,
+				B054B87E6C24E6183D205BE5 /* juce_graphics */,
+				905899C5016F177BFE7E9797 /* juce_gui_basics */,
+				57E15E48FEB4754822D14499 /* juce_gui_extra */,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		C90277FB7BD9A1116F420D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204622A8184433A8098BC715 /* TheBathroomEffect v0.1.vst3 */,
+				612255F967E85F8E6A0124B3 /* TheBathroomEffect v0.1.component */,
+				C5022B50779AEB28C9B97B9A /* TheBathroomEffect v0.1.app */,
+				F1F5908794CAB3AFAA03A14E /* libTheBathroomEffect v0.1.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB168C4869E12BE8B402DB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8CB04B3D8F040EDCF4CEA /* PluginProcessor.cpp */,
+				193F6B1A34565ADE6D0C028F /* PluginProcessor.h */,
+				DF0E3F4F69BCB7F6B6FC818D /* PluginEditor.cpp */,
+				5D37E0F780B0EAC766F593CB /* PluginEditor.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB592D3349D8564CD5A29DF /* TheBathroomEffect v0.1 - Standalone Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299C4D2DD1EAE42CCAEC4726 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - Standalone Plugin" */;
+			buildPhases = (
+				33588CBE54AD38F00258FA2D /* Resources */,
+				D415296E2CA25BB15D227987 /* Sources */,
+				8DA8B187F89CAE6E9F351A0A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C7E541FC5E26F75C7325C89 /* PBXTargetDependency */,
+			);
+			name = "TheBathroomEffect v0.1 - Standalone Plugin";
+			productName = "TheBathroomEffect v0.1";
+			productReference = C5022B50779AEB28C9B97B9A /* TheBathroomEffect v0.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EA73198DF15889C28D6A0E0 /* TheBathroomEffect v0.1 - AU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618467F8A152D49BD97B1753 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - AU" */;
+			buildPhases = (
+				3554D46075C2A34C0B370526 /* Resources */,
+				DD01BEB532F37847A7BB082A /* Rez */,
+				8B73CC2736D734F4CD35B5A1 /* Sources */,
+				B8358F3BE69BC42C4A88CEA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B0855AB1F955C44DDBBBEC /* PBXTargetDependency */,
+			);
+			name = "TheBathroomEffect v0.1 - AU";
+			productName = "TheBathroomEffect v0.1";
+			productReference = 612255F967E85F8E6A0124B3 /* TheBathroomEffect v0.1.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21468C7AA93F256DB2AD1AB /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - Shared Code" */;
+			buildPhases = (
+				4ABF9B7D0C234F005B19C1F7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheBathroomEffect v0.1 - Shared Code";
+			productName = "TheBathroomEffect v0.1";
+			productReference = F1F5908794CAB3AFAA03A14E /* libTheBathroomEffect v0.1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		80B3CE31BD281B8D6F5202EF /* TheBathroomEffect v0.1 - VST3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F2DCDFBCB76CC730D4D4C5 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - VST3" */;
+			buildPhases = (
+				CC172313C3AC393A34638807 /* Resources */,
+				1ED96459D143010294F50965 /* Sources */,
+				6CEE141C87E735174DD8F081 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654900EFEE04E7EF2BAEC055 /* PBXTargetDependency */,
+			);
+			name = "TheBathroomEffect v0.1 - VST3";
+			productName = "TheBathroomEffect v0.1";
+			productReference = 204622A8184433A8098BC715 /* TheBathroomEffect v0.1.vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8553F88D010AA1D73300EB4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					0EB592D3349D8564CD5A29DF = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					3EA73198DF15889C28D6A0E0 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					7F3F134E37E4FE4FB39C2FB9 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					80B3CE31BD281B8D6F5202EF = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					8B2E6C5B9CE04ACBFC692A97 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = EA37E3382234B119BB0A297E /* Build configuration list for PBXProject "TheBathroomEffect v0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72E0BDA5B4F2F94A59930AEF /* Source */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2E6C5B9CE04ACBFC692A97 /* TheBathroomEffect v0.1 - All */,
+				80B3CE31BD281B8D6F5202EF /* TheBathroomEffect v0.1 - VST3 */,
+				3EA73198DF15889C28D6A0E0 /* TheBathroomEffect v0.1 - AU */,
+				0EB592D3349D8564CD5A29DF /* TheBathroomEffect v0.1 - Standalone Plugin */,
+				7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33588CBE54AD38F00258FA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5586525C7690C002178A7 /* RecentFilesMenuTemplate.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3554D46075C2A34C0B370526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E5585825C7690C002178A7 /* RecentFilesMenuTemplate.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172313C3AC393A34638807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D48525829D40DE4E396609E /* RecentFilesMenuTemplate.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		DD01BEB532F37847A7BB082A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD55EDD85F972CADE2F7FA4B /* include_juce_audio_plugin_client_AU.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED96459D143010294F50965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E051BDE3ECC86B4E6C9D945E /* include_juce_audio_plugin_client_VST3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABF9B7D0C234F005B19C1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DB2133FBDF242275316220 /* PluginProcessor.cpp in Sources */,
+				C3376C91ED70B3DD8030D06D /* PluginEditor.cpp in Sources */,
+				2BDE372B6BF579DDE82D3377 /* include_juce_audio_basics.mm in Sources */,
+				121F8A728835C61FC25C86F0 /* include_juce_audio_devices.mm in Sources */,
+				773D74B02A76E88BE71FEDF8 /* include_juce_audio_formats.mm in Sources */,
+				0F194ACB488396E71E750B6D /* include_juce_audio_plugin_client_utils.cpp in Sources */,
+				3C1DC0517646814A3926FB8A /* include_juce_audio_plugin_client_VST_utils.mm in Sources */,
+				901EE3CDCEE0C89C59F0F45A /* include_juce_audio_processors.mm in Sources */,
+				E747438B2DA4CAD5FBBEEB23 /* include_juce_audio_utils.mm in Sources */,
+				03B90B37F24304BE2FF8345D /* include_juce_core.mm in Sources */,
+				D572F39477300C50A03673D1 /* include_juce_data_structures.mm in Sources */,
+				D4C25BA32683B191C1BF2A86 /* include_juce_dsp.mm in Sources */,
+				21655D3EB89C26D5C95BF5AC /* include_juce_events.mm in Sources */,
+				1F5F9A54E584C05C0898CC5E /* include_juce_graphics.mm in Sources */,
+				9358D457EF495DC93649C32F /* include_juce_gui_basics.mm in Sources */,
+				7CCAF414891933FDB28DA2F4 /* include_juce_gui_extra.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73CC2736D734F4CD35B5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89439E7D7A947549D475CB3F /* include_juce_audio_plugin_client_AU_1.mm in Sources */,
+				A4D61DBA1C161D91DA0FF9E0 /* include_juce_audio_plugin_client_AU_2.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D415296E2CA25BB15D227987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176421C647E4598F9F1CCFBE /* include_juce_audio_plugin_client_Standalone.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D496A1A6F324CDF894CB32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80B3CE31BD281B8D6F5202EF /* TheBathroomEffect v0.1 - VST3 */;
+			targetProxy = A4E5587525C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		1DAC5B29C6068EED96FA1BCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */;
+			targetProxy = A4E5587825C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		49B0855AB1F955C44DDBBBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */;
+			targetProxy = A4E5587225C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		654900EFEE04E7EF2BAEC055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */;
+			targetProxy = A4E5587325C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		7C7E541FC5E26F75C7325C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3F134E37E4FE4FB39C2FB9 /* TheBathroomEffect v0.1 - Shared Code */;
+			targetProxy = A4E5587425C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		A78BF88826815EBD0289BAE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA73198DF15889C28D6A0E0 /* TheBathroomEffect v0.1 - AU */;
+			targetProxy = A4E5587625C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+		E44448D166246A8C3F167127 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EB592D3349D8564CD5A29DF /* TheBathroomEffect v0.1 - Standalone Plugin */;
+			targetProxy = A4E5587725C7690D002178A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026834975CEAAA566842EC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-Standalone_Plugin.plist";
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = "-lTheBathroomEffect\\ v0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		24A705041979CB44F1D6A9F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		296A9D7F1BE4EBB8A7729691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JUCE_SHARED_CODE=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		35D867BE29F57FCEB5C205CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		62826F4A814DED3378BF30DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		7CE105F7957B31EB66A07FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JUCE_SHARED_CODE=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		92C0DCA15B1714DB2FEFED92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-VST3.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lTheBathroomEffect\\ v0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		A9A6B74E8D2FC001A4C9C31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB680AC1BC4C0D95AB4E3499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-VST3.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lTheBathroomEffect\\ v0",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		C1286ECF277A509DA8BF1DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-AU.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lTheBathroomEffect\\ v0",
+				);
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		D5F8143474A3A8A280D72D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-Standalone_Plugin.plist";
+				INFOPLIST_PREPROCESS = NO;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = "-lTheBathroomEffect\\ v0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		FEC36799F6FC7FE1A84D2EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60007",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Desc=\\\"TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x45697661",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=TheBathroomEffectv0_1AU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"TheBathroomEffectv0_1AU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.TheBathroomEffectv0_1",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"yourcompany:\\ TheBathroomEffect\\ v0.1\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK,
+					"$(SRCROOT)/../../JuceLibraryCode",
+					/Applications/JUCE/modules,
+					/Applications/JUCE/modules/juce_audio_plugin_client,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Info-AU.plist";
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = "/Applications/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode /Applications/JUCE/modules /Applications/JUCE/modules/juce_audio_plugin_client";
+				OTHER_LDFLAGS = (
+					"-bundle",
+					"-lTheBathroomEffect\\ v0",
+				);
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.TheBathroomEffectv0_1;
+				PRODUCT_NAME = "TheBathroomEffect v0.1";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2610D03F64714599BB43519F /* Build configuration list for PBXAggregateTarget "TheBathroomEffect v0.1 - All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A6B74E8D2FC001A4C9C31C /* Debug */,
+				24A705041979CB44F1D6A9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		299C4D2DD1EAE42CCAEC4726 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - Standalone Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026834975CEAAA566842EC09 /* Debug */,
+				D5F8143474A3A8A280D72D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		618467F8A152D49BD97B1753 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - AU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1286ECF277A509DA8BF1DB1 /* Debug */,
+				FEC36799F6FC7FE1A84D2EC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA37E3382234B119BB0A297E /* Build configuration list for PBXProject "TheBathroomEffect v0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62826F4A814DED3378BF30DB /* Debug */,
+				35D867BE29F57FCEB5C205CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F21468C7AA93F256DB2AD1AB /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - Shared Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE105F7957B31EB66A07FA7 /* Debug */,
+				296A9D7F1BE4EBB8A7729691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9F2DCDFBCB76CC730D4D4C5 /* Build configuration list for PBXNativeTarget "TheBathroomEffect v0.1 - VST3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB680AC1BC4C0D95AB4E3499 /* Debug */,
+				92C0DCA15B1714DB2FEFED92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8553F88D010AA1D73300EB4D /* Project object */;
+}
